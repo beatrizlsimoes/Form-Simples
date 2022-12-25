@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <h1>Formulário para DEV</h1>
+        <p>Complete com a sua informação</p>
+        <pt>
+    </div>
+
+    <form>
+        <fieldset class="grupo"> 
+            <div class="campo">
+                <label for="Nome"><strong>Nome</strong></label>
+                <input type="text" name="Nome" id="Nome" required>
+            </div>
+
+            <div class="campo">
+               <label for="Apelido"><strong>Apelido</strong></label> 
+               <input type="text" name="Apelido" id="Apelido" required>
+            </div>
+        </fieldset>
+
+             <div class="campo">
+                <label for="E-mail"><strong>E-mail</strong></label>
+                <input type="email" name="E-mail" id="E-mail" required>
+             </div>
+
+             <div class="campo">
+                <label for="Género"><strong>Género</strong></label>
+                <select id="Género" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Feminino</option>
+                  <option>Masculino</option>
+                  <option>Outro</option>
+                </select>
+            </div> 
+            
+            <button class="botao" type="submit" onsubmit="">Concluído</button>
+
+
+    </form>
+</body>
+</html>
